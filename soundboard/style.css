@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dc89a1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 620px;
+    width: 450px;
+    background-color: #de6285; 
+}
+
+
+.foto-container{
+    width: 100%;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.botao{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.botao:active{
+    height: 55px;
+    width: 55px;
+    margin-bottom: 5px;
+}
+
