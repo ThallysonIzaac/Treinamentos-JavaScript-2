@@ -1,3 +1,4 @@
+//variáveis
 let musicas = [
     {titulo:'Air', artista:'Bach', src:'musicas/Bach - Air.mp3', img:'imagens/Bach.jpg'},
     {titulo:'Spring', artista:'Chopin', src:'musicas/Chopin - Spring.mp3', img:'imagens/Chopin.jpg'},
