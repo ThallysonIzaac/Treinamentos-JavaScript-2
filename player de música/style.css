@@ -100,3 +100,17 @@ body .setas{
 body .botao-pause{
     display: none;
 }
+
+@media(max-width:480px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 110vh;
+    }
+    body .title{
+        margin-bottom: 50px;
+    }
+}
